@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.content{
+    margin-top: 11px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.logo{
+    margin-bottom: 30px;
+    
+}
+
+.login a{
+    color: #385185;
+}
+
+.login{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login p{
+    color: rgba(0, 0, 0, .5);
+}
+
+.cadastro{
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cadastro a{
+    color: #385185;
+}
+
+#email{
+    width: 260px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#pass{
+    width: 260px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#entrar{
+    width: 260px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    background-color: #b2dffc;
+    border: none;
+}
+
+.app-google{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.app-google p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.entrar-com-fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.info-footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footer{
+    width: 800px;
+    text-align: center;
+}
+
+.footer a{
+    margin: 0px 4px;
+    color: #8e8e8e;
+}
+
+.lang-pt{
+    margin-top: 18px;
+}
+
+@media screen and (max-width: 787px){
+
+    .phone{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    #email{
+        width: 85%;
+    }
+    
+    #pass{
+        width: 85%;
+    }
+    
+    #entrar{
+        width: 85%;
+
+    }
+
+}
+
+@media screen and (max-width: 266px){
+
+    #email{
+        width: 80%;
+    }
+    
+    #pass{
+        width: 80%;
+    }
+    
+    #entrar{
+        width: 80%;
+
+    }
+}
